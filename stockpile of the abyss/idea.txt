@@ -1,0 +1,37 @@
+CRASH DETECTION + EMERGENCY RESPONSE
+BRAINSTORMING NOTES / IDEA PHASE
+
+============================================================
+NOTE LANG:
+Bako pa ini anf final arch. brainstorm pa sana ta ini.
+
+Goal:
+Kapag may possible crash, dapat madetect agad dawa
+handheld sana ang phone hehe, tapos hapoton su driver kung okay
+siya. Pag walang response within a short time, saka mag attempt
+mag contact ng nearest emergency service.
+
+
+Basic thought:
+
+bako dapat "one sensor = crash".
+
+Kasi...
+Pothole lang baka mag trigger, or Biglang preno lang aka mag trigger, or Phone na nahulog sa seat baka mag trigger, GPS minsan delayed/noisy
+
+So dapat multiple evidence ang gamiton arog kaini:::
+
+/Summon FLOWCHARTTT!!!
+                    [NEW SENSOR DATA]
+                    [SCORING SYSTEM]
+
+       Speed Drop       Impact       Phone Tilt
+          score          score          score
+
+                    [TOTAL CRASH SCORE]
+
+                    Is score >= threshold?
+
+                     NO               YES
+
+               "Probably OK"     "Possible Crash"

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RoSAS: Road Safety and Assistance System</title>
+<link rel="stylesheet" href="/sub elements/style.css">
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+</head>
+
+<body>
+<video id="video" autoplay muted playsinline></video>
+<canvas id="canvas"></canvas>
+
+<div id="warning">Wait lang po</div>
+
+<div id="hud">
+Speed: <span id="speed">0</span> km/h<br>
+Impact: <span id="impact">0</span><br>
+Objects: <span id="objects">0</span><br>
+Camera: <span id="cam">Checking</span>
+</div>
+
+<script src="/sub elements/main.js"></script>
+
+</body>
+</html>
